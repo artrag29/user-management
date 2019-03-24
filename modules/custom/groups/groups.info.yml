@@ -1,0 +1,5 @@
+name: 'Groups'
+type: module
+description: 'Module for groups'
+core: 8.x
+package: 'Custom'
