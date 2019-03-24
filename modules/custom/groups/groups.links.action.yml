@@ -1,0 +1,5 @@
+entity.users_group.add_form:
+  route_name: entity.users_group.add_form
+  title: 'Add Users group'
+  appears_on:
+    - entity.users_group.collection

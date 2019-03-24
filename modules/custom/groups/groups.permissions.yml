@@ -1,0 +1,19 @@
+add users group entities:
+  title: 'Create new Users group entities'
+
+administer users group entities:
+  title: 'Administer Users group entities'
+  description: 'Allow to access the administration form to configure Users group entities.'
+  restrict access: true
+
+delete users group entities:
+  title: 'Delete Users group entities'
+
+edit users group entities:
+  title: 'Edit Users group entities'
+
+view published users group entities:
+  title: 'View published Users group entities'
+
+view unpublished users group entities:
+  title: 'View unpublished Users group entities'

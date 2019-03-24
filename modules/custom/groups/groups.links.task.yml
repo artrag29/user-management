@@ -1,0 +1,22 @@
+# Users group routing definition
+users_group.settings_tab:
+  route_name: users_group.settings
+  title: 'Settings'
+  base_route: users_group.settings
+
+entity.users_group.canonical:
+  route_name: entity.users_group.canonical
+  base_route: entity.users_group.canonical
+  title: 'View'
+
+entity.users_group.edit_form:
+  route_name: entity.users_group.edit_form
+  base_route: entity.users_group.canonical
+  title: 'Edit'
+
+entity.users_group.delete_form:
+  route_name:  entity.users_group.delete_form
+  base_route:  entity.users_group.canonical
+  title: Delete
+  weight: 10
+

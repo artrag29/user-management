@@ -1,0 +1,14 @@
+
+# Users group menu items definition
+entity.users_group.collection:
+  title: 'Users group list'
+  route_name: entity.users_group.collection
+  description: 'List Users group entities'
+  parent: system.admin_structure
+  weight: 100
+
+users_group.admin.structure.settings:
+  title: 'Users group settings'
+  description: 'Configure Users group entities'
+  route_name: users_group.settings
+  parent: system.admin_structure
