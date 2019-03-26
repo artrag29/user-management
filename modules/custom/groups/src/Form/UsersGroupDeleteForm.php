@@ -17,7 +17,7 @@ class UsersGroupDeleteForm extends ContentEntityDeleteForm {
     parent::validateForm($form, $form_state);
 
     if ($form_state->getBuildInfo()['callback_object']->getEntity()->get('members')->getValue() != NULL) {
-      $form_state->setErrorByName('members', 'Not empty group. Delete all members');
+      $form_state->setErrorByName('members', 'Not empty group. Delete all membersdru');
     }
   }
 

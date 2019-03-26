@@ -1,0 +1,35 @@
+uuid: be0b8934-3647-4d41-a280-9e8c2a616ae0
+langcode: en
+status: true
+dependencies:
+  module:
+    - groups
+id: users_group.users_group.default
+targetEntityType: users_group
+bundle: users_group
+mode: default
+content:
+  members:
+    type: options_buttons
+    weight: 3
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  name:
+    type: string_textfield
+    weight: -4
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  user_id:
+    type: entity_reference_autocomplete
+    weight: 5
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    region: content
+    third_party_settings: {  }
+hidden: {  }
