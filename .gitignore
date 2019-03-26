@@ -24,7 +24,3 @@ sites/simpletest
 
 # Ignore server specific files.
 .htaccess
-
-# If this file exists in the folder, it is treated as starter kit development
-# folder and root .git folder will not be removed by ScriptHandler.
-/.flexkitdev
