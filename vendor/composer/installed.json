@@ -1532,6 +1532,7 @@
             "drupal/core": "~8.0",
             "symfony/var-dumper": "~2.7|^3|^4"
         },
+        "time": "2019-03-12T00:46:53+00:00",
         "type": "drupal-module",
         "extra": {
             "branch-alias": {
